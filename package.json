@@ -1,0 +1,23 @@
+{
+  "name": "mindless-example",
+  "version": "1.0.0",
+  "description": "Serverless webpack example using the mindless framework",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "0.0.22",
+    "@types/node": "^8.0.57",
+    "serverless-offline": "^3.16.0",
+    "serverless-webpack": "^4.0.0",
+    "ts-loader": "^2.3.7",
+    "typescript": "^2.5.2",
+    "webpack": "^3.6.0"
+  },
+  "author": "Spratan Labs (https://github.com/SpartanLabs)",
+  "license": "MIT",
+  "dependencies": {
+    "mindless-framework": "1.0.0-alpha.9"
+  }
+}
